@@ -3,6 +3,11 @@
     padding:0;
     box-sizing: border-box;
 }
+/* 
+body {
+    max-width: 1366px;
+    
+} */
 
 h1,
 h2 {
@@ -49,9 +54,28 @@ p {
     height:200px;
     border-radius: 100%;
     margin-top:-100px;
-    margin-left:20px;
-    z-index:99;
+    margin-left:20px;   
+}
+
+.about-me {
+    margin-top:50px;
+    padding:20px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    height:40vh;
+}
+
+.text,
+.text-image {
+    width: 50%;
 }
 
 
-
+footer {
+    padding:20px;
+    bottom:0 ;
+    position: absolute;
+}
