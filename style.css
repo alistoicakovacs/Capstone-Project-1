@@ -49,7 +49,6 @@ p {
         max-width: 760px;
         border-radius: 30px;
 
-
 }
 
 
@@ -59,6 +58,7 @@ p {
     margin-top:-100px;
     margin-left:20px;   
     border:5px solid white;
+
 }
 
 .about-me-title,
@@ -90,10 +90,17 @@ ul {
     
 }
 
-.skills-list li { 
+.skills-list li {
+    border:1px solid rgb(148, 148, 148,0.5);
+    padding:5px;
+    margin:5px 0 5px 0;
     list-style: none;
+    transition: 0.3s ease;
 }
 
+.skills-list li:hover {
+    background-color: coral;
+}
 
 
 .text,
